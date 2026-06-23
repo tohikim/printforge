@@ -12,6 +12,6 @@ export const homeContent: {
 };
 
 export const navContent: { nav1: string; nav2: string } = {
-  nav1: "3D MODELS",
-  nav2: "ABOUT",
+  nav1: "About",
+  nav2: "3D Models",
 };

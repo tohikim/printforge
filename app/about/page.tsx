@@ -1,22 +1,14 @@
 import Stats from "./components/Stats";
-import { StaticImageData } from "next/image";
 import type { JSX } from "react";
 import { aboutHeader, aboutVision, stats } from "./constants/aboutContent";
-import Nav from "../components/Nav";
 import Image from "next/image";
 import headerImage from "../../public/hero-image 1.png";
 import footerImage from "../../public/aboutFooter.png";
-
-export type StatsType = {
-  icon: StaticImageData;
-  title: string;
-  description: string;
-};
+import { StatsType } from "../types";
 
 export default function AboutPage() {
   return (
     <div className="flex flex-col w-screen h-fit p-6 pb-20 md:p-10 justify-center items-center gap-10">
-      <Nav />
       <div className="flex flex-col md:flex-row md:justify-around gap-10">
         <div className="block w-full h-fit md:min-w-[45%] md:w-[45%]">
           <Image src={headerImage} alt="Header Image" />
