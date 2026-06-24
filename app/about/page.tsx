@@ -16,8 +16,8 @@ export default function AboutPage() {
         <div className="flex flex-col text-left justify-center gap-5 md:max-w-[45%]">
           <p>{aboutHeader.tag}</p>
           <h1 className="text-5xl font-bold">{aboutHeader.title}</h1>
-          <p className="text-2xl">{aboutHeader.des1}</p>
-          <p className="text-2xl">{aboutHeader.des2}</p>
+          <p className="text-xl">{aboutHeader.des1}</p>
+          <p className="text-xl">{aboutHeader.des2}</p>
         </div>
       </div>
       <div className="w-full h-px bg-gray-200" />
@@ -43,11 +43,11 @@ export default function AboutPage() {
         })}
       </div>
       <div className="w-full h-px bg-gray-200" />
-      <div className="flex flex-col md:max-w-[45%] text-left gap-10">
-        <h1 className="text-5xl font-bold">{aboutVision.title}</h1>
-        <p className="text-2xl">{aboutVision.par1}</p>
+      <div className="flex flex-col md:max-w-[45%] text-left gap-10 my-5">
+        <h1 className="text-4xl font-bold">{aboutVision.title}</h1>
+        <p className="text-xl">{aboutVision.par1}</p>
         <div className="self-center w-[75%] md:w-[30%] h-px bg-gray-400 " />
-        <p className="text-2xl">{aboutVision.par2}</p>
+        <p className="text-xl">{aboutVision.par2}</p>
       </div>
       <div className="hidden md:block">
         <Image

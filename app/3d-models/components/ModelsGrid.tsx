@@ -10,7 +10,7 @@ export default function ModelsGrid({
   title?: string;
 }) {
   return (
-    <div className="flex flex-col justify-center text-left p-7 md:p-10 gap-5">
+    <div className="flex flex-col justify-center text-left px-7 md:px-10 gap-5">
       {!!title && (
         <div className="hidden md:block">
           <h1 className="text-2xl font-bold pl-2">{title}</h1>
