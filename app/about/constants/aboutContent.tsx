@@ -1,4 +1,4 @@
-import { StatsType } from "../page";
+import { StatsType } from "../../types";
 import stack from "../../../public/Stack.png";
 import flag from "../../../public/Flag.png";
 import globe from "../../../public/GlobeSimple.png";

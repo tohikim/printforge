@@ -22,11 +22,13 @@ export default function RootLayout({ children }: RootLayoutProps) {
         suppressHydrationWarning
         className={`${albertSans.className} ${monsterrat.variable}`}
       >
-        <header>
-          <Nav />
-        </header>
-        {children}
-        <footer></footer>
+        <div className=" h-screen">
+          <header>
+            <Nav />
+          </header>
+          {children}
+          <footer></footer>
+        </div>
       </body>
     </html>
   );

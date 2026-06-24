@@ -17,11 +17,21 @@ export default function Nav(): JSX.Element {
         </div>
       </Link>
       <ul className="flex flex-row gap-5 justify-around max-w-[50%]">
-        <li>
-          <Link href="/about">{navContent.nav1}</Link>
+        <li className="hover:-translate-y-0.75 transition-all">
+          <Link
+            href="/3d-models"
+            className="py-2 hover:text-[#F77429] focus:text-[#F77429] hover:border-b-2 hover:border-b-[#F77429] active:text-[#F77429] focus:border-b-2 focus:border-b-[#F77429]"
+          >
+            {navContent.nav1}
+          </Link>
         </li>
-        <li>
-          <Link href="/3d-models">{navContent.nav2}</Link>
+        <li className="hover:-translate-y-0.75 transition-all">
+          <Link
+            href="/about"
+            className="py-2 hover:text-[#F77429] focus:text-[#F77429] hover:border-b-2 hover:border-b-[#F77429] active:text-[#F77429] focus:border-b-2 focus:border-b-[#F77429]"
+          >
+            {navContent.nav2}
+          </Link>
         </li>
       </ul>
     </nav>
