@@ -6,7 +6,7 @@ import Likes from "./Likes";
 
 export default function ModelCard({ model }: { model: Model }): JSX.Element {
   return (
-    <div className="flex flex-col text-left xl:h-125 lg:h-118 md:h-106 border border-gray-300 rounded-[10px] hover:shadow-[0_5px_12px_rgba(0,0,0,0.1)] hover:-translate-y-0.75 transition-all">
+    <div className="flex flex-col text-left xl:h-116 lg:h-106 md:h-130 border border-gray-300 rounded-[10px] hover:shadow-[0_5px_12px_rgba(0,0,0,0.1)] hover:-translate-y-0.75 transition-all">
       <Image
         src={hero}
         alt="Model card image"

@@ -22,7 +22,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         suppressHydrationWarning
         className={`${albertSans.className} ${monsterrat.variable}`}
       >
-        <div className=" h-screen">
+        <div className="h-screen">
           <header>
             <Nav />
           </header>

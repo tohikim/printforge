@@ -1,5 +1,5 @@
 import { getModelById } from "@/app/lib/models";
-import { Model } from "@/app/types";
+import { ModelDetailPageProps } from "@/app/types";
 import type { JSX } from "react";
 import hero from "../../../public/hero-image 1.png";
 import Image from "next/image";
@@ -9,9 +9,7 @@ import Likes from "../components/Likes";
 
 export default async function ModelDetailPage({
   params,
-}: {
-  params: Promise<Model>;
-}): Promise<JSX.Element> {
+}: ModelDetailPageProps): Promise<JSX.Element> {
   const { id } = await params;
   const res = await getModelById(id);
 
