@@ -48,3 +48,20 @@ export type CategoryPageProps = {
     models: Model[];
   }>;
 };
+
+export type NavPillProps = {
+  name: string;
+  path: string;
+  condition?: boolean;
+};
+
+export type ModelsGridProps = {
+  models: Model[];
+  title?: string;
+};
+
+export type CategoryNavPillProps = {
+  url: string;
+  name: string;
+  condition?: boolean;
+};

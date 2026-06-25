@@ -12,7 +12,7 @@ export default function CategoryNav() {
 
   const all = "All";
   return (
-    <div className="sticky top-0 bg-white align-start h-fit md:overflow-y-auto overflow-x-auto scrollbar-hide md:h-screen flex flex-row md:flex-col items-start md:justify-start gap-7 py-4 px-10 md:min-w-50 ">
+    <div className="sticky top-0 bg-white align-start h-fit md:overflow-y-auto overflow-x-auto scrollbar-hide md:h-screen flex flex-row md:flex-col items-start md:justify-center gap-7 py-4 px-10 md:min-w-50">
       <CategoryNavPill
         url={pathAll}
         name={all}

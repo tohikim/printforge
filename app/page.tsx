@@ -1,3 +1,5 @@
+export const dynamic = "force-static";
+
 import cover from "../public/home-image.png";
 import Image from "next/image";
 import { homeContent } from "./constants/homeContent";

@@ -1,14 +1,11 @@
+import { CategoryNavPillProps } from "@/app/types";
 import Link from "next/link";
 
 export default function CategoryNavPill({
   url,
   name,
   condition,
-}: {
-  url: string;
-  name: string;
-  condition?: boolean;
-}): JSX.Element {
+}: CategoryNavPillProps): JSX.Element {
   return (
     <div className="hover:-translate-y-0.75 transition-all">
       <Link
