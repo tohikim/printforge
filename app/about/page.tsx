@@ -22,7 +22,7 @@ export default function AboutPage() {
       </div>
       <div className="w-full h-px bg-gray-200" />
       <div className="flex flex-col md:flex-row md:justify-evenly gap-7 text-left">
-        {stats.map((stat: StatsType, index: number): JSX.Element => {
+        {stats.map((stat: StatsType, index: number) => {
           return (
             <div
               key={index}

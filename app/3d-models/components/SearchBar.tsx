@@ -1,4 +1,4 @@
-export default function SearchBar(): JSX.Element {
+export default function SearchBar() {
   return (
     <form className="block self-center items-center md:w-fit w-dvw px-7 md:px-10">
       <input

@@ -9,7 +9,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import NavPill from "./NavPill";
 
-export default function Nav(): JSX.Element {
+export default function Nav() {
   const pathname = usePathname();
 
   return (

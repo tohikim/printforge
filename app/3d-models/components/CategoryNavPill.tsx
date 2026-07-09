@@ -5,7 +5,7 @@ export default function CategoryNavPill({
   url,
   name,
   condition,
-}: CategoryNavPillProps): JSX.Element {
+}: CategoryNavPillProps) {
   return (
     <div className="hover:-translate-y-0.75 transition-all">
       <Link

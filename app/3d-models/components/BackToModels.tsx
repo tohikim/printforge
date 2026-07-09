@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { CiSquareChevLeft } from "react-icons/ci";
 
-export default function BackToModels(): JSX.Element {
+export default function BackToModels() {
   const buttonName = "BACK TO OVERVIEW";
 
   return (

@@ -1,11 +1,7 @@
 import Link from "next/link";
 import { NavPillProps } from "../types";
 
-export default function NavPill({
-  name,
-  path,
-  condition,
-}: NavPillProps): JSX.Element {
+export default function NavPill({ name, path, condition }: NavPillProps) {
   return (
     <li className="hover:-translate-y-0.75 transition-all">
       <Link

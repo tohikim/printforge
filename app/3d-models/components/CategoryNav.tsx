@@ -18,7 +18,7 @@ export default function CategoryNav() {
         name={all}
         condition={pathname === pathAll}
       />
-      {categories.map(({ displayName, slug }: Category): JSX.Element => {
+      {categories.map(({ displayName, slug }: Category) => {
         const url = `/3d-models/categories/${slug}`;
         return (
           <CategoryNavPill

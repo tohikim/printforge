@@ -2,11 +2,7 @@ import { StatsType } from "@/app/types";
 import Image from "next/image";
 import type { JSX } from "react";
 
-export default function Stats({
-  icon,
-  title,
-  description,
-}: StatsType): JSX.Element {
+export default function Stats({ icon, title, description }: StatsType) {
   return (
     <div className="flex flex-col gap-2 text-left">
       <div className="flex flex-row gap-2 justify-start items-center">
