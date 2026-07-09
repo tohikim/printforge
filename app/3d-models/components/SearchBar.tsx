@@ -4,8 +4,11 @@ export default function SearchBar(): JSX.Element {
       <input
         type="text"
         name="search"
-        className="md:w-fit w-full border border-gray-400 bg-white text-xl rounded-[30px] px-3 py-1 font-light"
-      ></input>
+        placeholder="Search"
+        autoComplete="off"
+        defaultValue="arts"
+        className="md:w-fit w-full border border-gray-400 bg-white text-xl rounded-[30px] px-3 py-1 font-light text-[1rem]"
+      />
     </form>
   );
 }

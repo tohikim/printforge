@@ -11,7 +11,7 @@ export default function ModelsGrid({ models, title }: ModelsGridProps) {
           <div className="hidden md:block">
             <h1 className="text-2xl font-bold pl-2">{title}</h1>
           </div>
-          <SearchBar />
+          {/* <SearchBar /> */}
         </div>
       )}
       <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2">
